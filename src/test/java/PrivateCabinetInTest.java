@@ -27,8 +27,8 @@ public class PrivateCabinetInTest {
 
     @Before
     public void setUp() {
+        BaseTest.setUpForAll();
         user = new User(userOperations.register());
-        Configuration.browserSize = "1920x1080";
     }
 
     @After

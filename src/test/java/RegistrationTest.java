@@ -19,7 +19,7 @@ public class RegistrationTest {
 
     @Before
     public void setUp (){
-        Configuration.browserSize = "1920x1080";
+        BaseTest.setUpForAll();
     }
 
 
