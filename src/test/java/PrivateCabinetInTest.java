@@ -1,5 +1,4 @@
 import com.UserOperations;
-import com.codeborne.selenide.Configuration;
 import com.model.User;
 import com.page.LoginPage;
 import com.page.MainPage;
@@ -8,9 +7,6 @@ import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
-import java.util.HashMap;
-import java.util.Map;
 
 import static com.codeborne.selenide.Selenide.open;
 import static com.codeborne.selenide.Selenide.page;
@@ -52,7 +48,7 @@ public class PrivateCabinetInTest {
         mainPage.clickSingIn();
         loginPage.login(user);
         mainPage.clickPersAcc();
-        privateOffice.goConstr();
+        privateOffice.clickConstructorButton();
         mainPage.checkHasButtonAndText();
     }
 
@@ -62,7 +58,7 @@ public class PrivateCabinetInTest {
         mainPage.clickSingIn();
         loginPage.login(user);
         mainPage.clickPersAcc();
-        privateOffice.goBurger();
+        privateOffice.clickBurger();
         mainPage.checkHasButtonAndText();
     }
 
@@ -72,7 +68,7 @@ public class PrivateCabinetInTest {
         mainPage.clickSingIn();
         loginPage.login(user);
         mainPage.clickPersAcc();
-        privateOffice.goExit();
+        privateOffice.clickExitButton();
         assertTrue("Кнопки Войти нет на экране", loginPage.checkEntrance());
     }
 }

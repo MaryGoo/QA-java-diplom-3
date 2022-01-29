@@ -1,5 +1,4 @@
 import com.UserOperations;
-import com.codeborne.selenide.Configuration;
 import com.model.User;
 import com.page.ForgotPasswordPage;
 import com.page.LoginPage;
@@ -9,9 +8,9 @@ import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import java.util.Map;
 
-import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.page;
 
 public class UserLoginTest {
 

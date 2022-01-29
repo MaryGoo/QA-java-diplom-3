@@ -1,5 +1,4 @@
 import com.UserOperations;
-import com.codeborne.selenide.Configuration;
 import com.model.User;
 import com.page.LoginPage;
 import com.page.MainPage;

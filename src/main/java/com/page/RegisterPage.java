@@ -8,6 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
 public class RegisterPage {
+
     public static final String REGISTER_PAGE_URL = "https://stellarburgers.nomoreparties.site/register";
 
     //Input для поля Имя
@@ -19,48 +20,20 @@ public class RegisterPage {
     //Input для поля Пароль
     @FindBy(how = How.XPATH, using = ".//label[text()='Пароль']/../input")
     private SelenideElement passwordInput;
-
-//    //Поле ввода имени неактивное
-//    @FindBy(how = How.XPATH,using = "//fieldset[1]//div[1]//div[1]")
-//    private SelenideElement nameField;
-//
-//    //поле ввода имени активное
-//    @FindBy(how = How.XPATH,using = "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/form[1]/fieldset[1]/div[1]/div[1]/input[1]")
-//    private SelenideElement nameActField;
-//
-//    //поле ввода мейла неактивное
-//    @FindBy(how = How.XPATH,using = "//fieldset[2]//div[1]//div[1]")
-//    private SelenideElement mailField;
-//
-//    //поле ввода мейла активное
-//    @FindBy(how = How.CSS,using = "div[class='input pr-6 pl-6 input_type_text input_size_default input_status_active'] input[name='name']")
-//    private SelenideElement mailActivField;
-//
-//    //поле ввода пароля неактивное
-//    @FindBy(how = How.XPATH,using = "//fieldset[3]//div[1]//div[1]")
-//    private SelenideElement passField;
-//
-//    //поле ввода пароля активное
-//    @FindBy(how = How.XPATH,using = "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/form[1]/fieldset[3]/div[1]/div[1]/input[1]")
-//    private SelenideElement passActiveField;
-
     //ошибка ввода пароля при нажатии на кнопку регистрации
     @FindBy(how = How.CSS, using = ".input__error.text_type_main-default")
     private SelenideElement error;
-
     //заголовок Регистрация
     @FindBy(how = How.XPATH, using = "//h2[contains(text(),'Регистрация')]")
     private SelenideElement registerHeader;
-
     //кнопка Зарегистрироваться
     @FindBy(how = How.XPATH, using = "//button[text()='Зарегистрироваться']")
     private SelenideElement regButton;
-
     //кнопка Войти
     @FindBy(how = How.XPATH, using = "//*[contains(@class, 'Auth_link')][contains(text(), 'Войти')]")
     public SelenideElement singIn;
 
-    @Step
+    @Step ("Заполнить имя, почту, пароль на форме регистрации")
     public void fillRegisterForm(User user) {
         nameInput.setValue(user.getName());
         emailInput.setValue(user.getEmail());
@@ -72,19 +45,18 @@ public class RegisterPage {
         regButton.click();
     }
 
-    @Step
+    @Step("Проверить наличие ошибки \"Некорректный пароль\"")
     public void checkError() {
         error.shouldHave(Condition.exactText("Некорректный пароль"));
     }
 
-    @Step
+    @Step("Проверить наличие заголовка \"Регистрация\"")
     public void checkHeader() {
         registerHeader.shouldHave(Condition.exactText("Регистрация"));
     }
 
-    @Step
+    @Step("Нажать на кнопку Войти")
     public void clickSingInButton() {
         singIn.shouldBe(Condition.exist).click();
     }
-
 }
