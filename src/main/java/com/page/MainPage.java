@@ -51,7 +51,6 @@ public class MainPage {
     //Проверка, что после логина есть кнопка Оформить заказ
     @Step
     public void checkHasButtonAndText() {
-        makeOrder.scrollTo();
         makeOrder.shouldHave(Condition.exactText("Оформить заказ"));
         inscriptionBurger.shouldHave(Condition.exist);
         inscriptionBurger.shouldHave(Condition.exactText("Соберите бургер"));

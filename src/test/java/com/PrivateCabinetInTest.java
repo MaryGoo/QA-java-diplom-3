@@ -1,3 +1,6 @@
+package com;
+
+import com.BaseTest;
 import com.UserOperations;
 import com.model.User;
 import com.page.LoginPage;

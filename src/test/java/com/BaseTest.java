@@ -1,3 +1,5 @@
+package com;
+
 import com.codeborne.selenide.Configuration;
 
 public class BaseTest {
