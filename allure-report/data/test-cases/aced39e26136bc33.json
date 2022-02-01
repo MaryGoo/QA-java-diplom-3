@@ -1,0 +1,159 @@
+{
+  "uid" : "aced39e26136bc33",
+  "name" : "Не успешная регистрация с паролем 5 символов",
+  "fullName" : "com.RegistrationTest.registrationWithPass5CharFailTest",
+  "historyId" : "359e8447525a7c733c120c1098c8458a",
+  "time" : {
+    "start" : 1643698302320,
+    "stop" : 1643698305602,
+    "duration" : 3282
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Нажать кнопку Войти в аккаунт",
+      "time" : {
+        "start" : 1643698304855,
+        "stop" : 1643698304945,
+        "duration" : 90
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Кликнуть на ссылку Зарегистрироваться",
+      "time" : {
+        "start" : 1643698304945,
+        "stop" : 1643698305026,
+        "duration" : 81
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Заполнить имя, почту, пароль на форме регистрации",
+      "time" : {
+        "start" : 1643698305026,
+        "stop" : 1643698305397,
+        "duration" : 371
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "com.model.User@432b883"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать кнопку Зарегистрироваться",
+      "time" : {
+        "start" : 1643698305397,
+        "stop" : 1643698305450,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверить наличие ошибки \"Некорректный пароль\"",
+      "time" : {
+        "start" : 1643698305450,
+        "stop" : 1643698305494,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверить наличие заголовка \"Регистрация\"",
+      "time" : {
+        "start" : 1643698305494,
+        "stop" : 1643698305515,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com"
+  }, {
+    "name" : "testClass",
+    "value" : "com.RegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "registrationWithPass5CharFailTest"
+  }, {
+    "name" : "suite",
+    "value" : "com.RegistrationTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Sergej.local"
+  }, {
+    "name" : "thread",
+    "value" : "30750@MacBook-Pro-Sergej.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aced39e26136bc33.json",
+  "parameterValues" : [ ]
+}

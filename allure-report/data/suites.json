@@ -1,0 +1,255 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "com.RegistrationTest",
+    "children" : [ {
+      "name" : "Не успешная регистрация с пустым Name",
+      "uid" : "a1cb1ead005c91ac",
+      "parentUid" : "412a94d8cb0aed0f0011fafa0074473f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1643698278215,
+        "stop" : 1643698293719,
+        "duration" : 15504
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Не успешная регистрация с пустым Name",
+      "uid" : "750c281d56197d6f",
+      "parentUid" : "412a94d8cb0aed0f0011fafa0074473f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1643698293784,
+        "stop" : 1643698301687,
+        "duration" : 7903
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Не успешная регистрация с паролем 5 символов",
+      "uid" : "aced39e26136bc33",
+      "parentUid" : "412a94d8cb0aed0f0011fafa0074473f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643698302320,
+        "stop" : 1643698305602,
+        "duration" : 3282
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Не успешная регистрация с пустой формой",
+      "uid" : "e21858a37a869ed7",
+      "parentUid" : "412a94d8cb0aed0f0011fafa0074473f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1643698305605,
+        "stop" : 1643698313153,
+        "duration" : 7548
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешная регистрация с паролем 6 символов",
+      "uid" : "33c5960a516c549a",
+      "parentUid" : "412a94d8cb0aed0f0011fafa0074473f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643698313157,
+        "stop" : 1643698317455,
+        "duration" : 4298
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Не успешная регистрация с пустым Email",
+      "uid" : "9e2f5aa16783b026",
+      "parentUid" : "412a94d8cb0aed0f0011fafa0074473f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1643698317457,
+        "stop" : 1643698325229,
+        "duration" : 7772
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "412a94d8cb0aed0f0011fafa0074473f"
+  }, {
+    "name" : "com.UserLoginTest",
+    "children" : [ {
+      "name" : "Успешный логин при попадании на страницу логина из формы регистрации",
+      "uid" : "855e39a790a2b5a1",
+      "parentUid" : "d7a8a52adafdc85a70cac7a7c8a63b45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643698325236,
+        "stop" : 1643698330544,
+        "duration" : 5308
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешный логин при попадании на страницу логина через кнопку Войти в аккаунт",
+      "uid" : "2614e68877c6e33b",
+      "parentUid" : "d7a8a52adafdc85a70cac7a7c8a63b45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643698330546,
+        "stop" : 1643698332038,
+        "duration" : 1492
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешный логин при попадании на страницу логина через кнопку Личный кабинет",
+      "uid" : "b12b56a07e6491b3",
+      "parentUid" : "d7a8a52adafdc85a70cac7a7c8a63b45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643698332040,
+        "stop" : 1643698333490,
+        "duration" : 1450
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешный логин при попадании на страницу логина из формы восстановления пароля",
+      "uid" : "87c38830ec0641ea",
+      "parentUid" : "d7a8a52adafdc85a70cac7a7c8a63b45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643698333491,
+        "stop" : 1643698335199,
+        "duration" : 1708
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d7a8a52adafdc85a70cac7a7c8a63b45"
+  }, {
+    "name" : "com.PrivateCabinetInTest",
+    "children" : [ {
+      "name" : "Успешный выход из личного кабинета",
+      "uid" : "275b779b8b143ad8",
+      "parentUid" : "048175eb9e789b20c257753f0b4c1bbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643698335206,
+        "stop" : 1643698337076,
+        "duration" : 1870
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешный переход в конструктор из личного кабинета",
+      "uid" : "164380cdea824d3b",
+      "parentUid" : "048175eb9e789b20c257753f0b4c1bbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643698337080,
+        "stop" : 1643698338919,
+        "duration" : 1839
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешный переход в личный кабинет с главной страницы",
+      "uid" : "1ad0e10a6734de62",
+      "parentUid" : "048175eb9e789b20c257753f0b4c1bbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643698338920,
+        "stop" : 1643698340684,
+        "duration" : 1764
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешный переход в конструктор из личного кабинета через лого бургера",
+      "uid" : "ecc6d3fd1d5cb08b",
+      "parentUid" : "048175eb9e789b20c257753f0b4c1bbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643698340686,
+        "stop" : 1643698342542,
+        "duration" : 1856
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "048175eb9e789b20c257753f0b4c1bbe"
+  }, {
+    "name" : "com.ConstructorTest",
+    "children" : [ {
+      "name" : "Успешный переход на вкладку Соусы",
+      "uid" : "810cc6db93f8e036",
+      "parentUid" : "7e47826e839c796d9eac97646494631b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643698342546,
+        "stop" : 1643698343937,
+        "duration" : 1391
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешный переход на вкладку Булки из других вкладок",
+      "uid" : "d41d56cddbff3ca6",
+      "parentUid" : "7e47826e839c796d9eac97646494631b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643698343939,
+        "stop" : 1643698345396,
+        "duration" : 1457
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешный переход на вкладку начинки",
+      "uid" : "f97968ae251677ad",
+      "parentUid" : "7e47826e839c796d9eac97646494631b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643698345400,
+        "stop" : 1643698346739,
+        "duration" : 1339
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "При попадании на главную страницу по дефолту открыта вкладка Булки",
+      "uid" : "25c99395470be018",
+      "parentUid" : "7e47826e839c796d9eac97646494631b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643698346741,
+        "stop" : 1643698347945,
+        "duration" : 1204
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7e47826e839c796d9eac97646494631b"
+  } ]
+}

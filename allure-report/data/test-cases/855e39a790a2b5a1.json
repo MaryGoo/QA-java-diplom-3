@@ -1,0 +1,144 @@
+{
+  "uid" : "855e39a790a2b5a1",
+  "name" : "Успешный логин при попадании на страницу логина из формы регистрации",
+  "fullName" : "com.UserLoginTest.loginMainPageFromRegisterFormSuccessTest",
+  "historyId" : "31d21f1d9b02cb443f5f3283bd92e2c9",
+  "time" : {
+    "start" : 1643698325236,
+    "stop" : 1643698330544,
+    "duration" : 5308
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Нажать кнопку Войти в аккаунт",
+      "time" : {
+        "start" : 1643698329425,
+        "stop" : 1643698329499,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Кликнуть на ссылку Зарегистрироваться",
+      "time" : {
+        "start" : 1643698329499,
+        "stop" : 1643698329579,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Нажать на кнопку Войти",
+      "time" : {
+        "start" : 1643698329579,
+        "stop" : 1643698329643,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Заполнить почту и пароль на форме логина. Нажать Войти",
+      "time" : {
+        "start" : 1643698329643,
+        "stop" : 1643698329969,
+        "duration" : 326
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "com.model.User@f777d41"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "checkHasButtonAndText",
+      "time" : {
+        "start" : 1643698329969,
+        "stop" : 1643698330255,
+        "duration" : 286
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com"
+  }, {
+    "name" : "testClass",
+    "value" : "com.UserLoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginMainPageFromRegisterFormSuccessTest"
+  }, {
+    "name" : "suite",
+    "value" : "com.UserLoginTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Sergej.local"
+  }, {
+    "name" : "thread",
+    "value" : "30750@MacBook-Pro-Sergej.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "855e39a790a2b5a1.json",
+  "parameterValues" : [ ]
+}

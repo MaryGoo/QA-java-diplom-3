@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element not found {.input__error.text_type_main-default}\nExpected: exact text 'Некорректный пароль'\nScreenshot: file:/Users/sergey/Downloads/QA-java-diplom-3/build/reports/tests/1643698293339.0.png\nPage source: file:/Users/sergey/Downloads/QA-java-diplom-3/build/reports/tests/1643698293339.0.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".input__error.text_type_main-default\"}",
+      "children" : [ {
+        "name" : "Не успешная регистрация с пустым Name",
+        "uid" : "a1cb1ead005c91ac",
+        "parentUid" : "24f650be75bf99d6af86d18b8e6f3362",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643698278215,
+          "stop" : 1643698293719,
+          "duration" : 15504
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "24f650be75bf99d6af86d18b8e6f3362"
+    }, {
+      "name" : "Element not found {.input__error.text_type_main-default}\nExpected: exact text 'Некорректный пароль'\nScreenshot: file:/Users/sergey/Downloads/QA-java-diplom-3/build/reports/tests/1643698301197.1.png\nPage source: file:/Users/sergey/Downloads/QA-java-diplom-3/build/reports/tests/1643698301197.1.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".input__error.text_type_main-default\"}",
+      "children" : [ {
+        "name" : "Не успешная регистрация с пустым Name",
+        "uid" : "750c281d56197d6f",
+        "parentUid" : "fc266268fa23bf22af2cf9034247e35f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643698293784,
+          "stop" : 1643698301687,
+          "duration" : 7903
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fc266268fa23bf22af2cf9034247e35f"
+    }, {
+      "name" : "Element not found {.input__error.text_type_main-default}\nExpected: exact text 'Некорректный пароль'\nScreenshot: file:/Users/sergey/Downloads/QA-java-diplom-3/build/reports/tests/1643698312691.2.png\nPage source: file:/Users/sergey/Downloads/QA-java-diplom-3/build/reports/tests/1643698312691.2.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".input__error.text_type_main-default\"}",
+      "children" : [ {
+        "name" : "Не успешная регистрация с пустой формой",
+        "uid" : "e21858a37a869ed7",
+        "parentUid" : "ed711721cfe83cd6eb2591bd9f9aa15e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643698305605,
+          "stop" : 1643698313153,
+          "duration" : 7548
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ed711721cfe83cd6eb2591bd9f9aa15e"
+    }, {
+      "name" : "Element not found {.input__error.text_type_main-default}\nExpected: exact text 'Некорректный пароль'\nScreenshot: file:/Users/sergey/Downloads/QA-java-diplom-3/build/reports/tests/1643698324750.3.png\nPage source: file:/Users/sergey/Downloads/QA-java-diplom-3/build/reports/tests/1643698324750.3.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".input__error.text_type_main-default\"}",
+      "children" : [ {
+        "name" : "Не успешная регистрация с пустым Email",
+        "uid" : "9e2f5aa16783b026",
+        "parentUid" : "f2b2c9f60eb57c0fc001c0eb1f02fb60",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643698317457,
+          "stop" : 1643698325229,
+          "duration" : 7772
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f2b2c9f60eb57c0fc001c0eb1f02fb60"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
