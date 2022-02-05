@@ -45,14 +45,14 @@ public class RegisterPage {
         regButton.click();
     }
 
-    @Step("Проверить наличие ошибки \"Некорректный пароль\"")
-    public void checkError() {
-        error.shouldHave(Condition.exactText("Некорректный пароль"));
+    @Step("Получить текст ошибки \"Некорректный пароль\"")
+    public String getTextError() {
+        return error.getText();
     }
 
-    @Step("Проверить наличие заголовка \"Регистрация\"")
-    public void checkHeader() {
-        registerHeader.shouldHave(Condition.exactText("Регистрация"));
+    @Step("Получить текст заголовка \"Регистрация\"")
+    public String getTextRegisterHeader(){
+        return registerHeader.getText();
     }
 
     @Step("Нажать на кнопку Войти")

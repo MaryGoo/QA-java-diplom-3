@@ -10,6 +10,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static com.codeborne.selenide.Selenide.*;
+import static org.junit.Assert.assertEquals;
 
 public class RegistrationTest {
 
@@ -37,8 +38,8 @@ public class RegistrationTest {
         registerPage.fillRegisterForm(userFake);
         registerPage.clickRegButton();
         //TODO завести дефек: нет ошибки при попытке регистрации с пустыми полями
-        registerPage.checkError();
-        registerPage.checkHeader();
+        assertEquals( "Текст ошибки не верен", "Некорректный пароль", registerPage.getTextError());
+        assertEquals( "Надпить \"Регистрация\" не видна", "Регистрация", registerPage.getTextRegisterHeader());
     }
 
     @DisplayName("Не успешная регистрация с пустым Email")
@@ -51,8 +52,8 @@ public class RegistrationTest {
         registerPage.fillRegisterForm(userFake);
         registerPage.clickRegButton();
         //TODO завести дефек: нет ошибки при попытке регистрации с пустым Email
-        registerPage.checkError();
-        registerPage.checkHeader();
+        assertEquals( "Текст ошибки не верен", "Некорректный пароль", registerPage.getTextError());
+        assertEquals( "Надпить \"Регистрация\" не видна", "Регистрация", registerPage.getTextRegisterHeader());
     }
 
     @DisplayName("Не успешная регистрация с пустым Name")
@@ -65,8 +66,8 @@ public class RegistrationTest {
         registerPage.fillRegisterForm(userFake);
         registerPage.clickRegButton();
         //TODO завести дефек: нет ошибки при попытке регистрации с пустым Name
-        registerPage.checkError();
-        registerPage.checkHeader();
+        assertEquals( "Текст ошибки не верен", "Некорректный пароль", registerPage.getTextError());
+        assertEquals( "Надпить \"Регистрация\" не видна", "Регистрация", registerPage.getTextRegisterHeader());
     }
 
     @DisplayName("Не успешная регистрация с пустым Name")
@@ -79,8 +80,9 @@ public class RegistrationTest {
         registerPage.fillRegisterForm(userFake);
         registerPage.clickRegButton();
         //TODO завести дефек: нет ошибки при попытке регистрации с пустым Password
-        registerPage.checkError();
-        registerPage.checkHeader();
+        assertEquals( "Текст ошибки не верен", "Некорректный пароль", registerPage.getTextError());
+        assertEquals( "Надпить \"Регистрация\" не видна", "Регистрация", registerPage.getTextRegisterHeader());
+
     }
 
     @DisplayName("Успешная регистрация с паролем 6 символов")
@@ -92,7 +94,8 @@ public class RegistrationTest {
         registerPage.fillRegisterForm(userFake);
         registerPage.clickRegButton();
         loginPage.login(userFake);
-        mainPage.checkHasButtonAndText();
+        assertEquals( "Кнока \"Оформить заказ\" не видна", "Оформить заказ", mainPage.getTextMakeOrderButton());
+        assertEquals( "Надпить \"Соберите бургер\" не видна", "Соберите бургер", mainPage.getTextInscriptionBurger());
     }
 
     @DisplayName("Не успешная регистрация с паролем 5 символов")
@@ -103,7 +106,7 @@ public class RegistrationTest {
         loginPage.clickRegister();
         registerPage.fillRegisterForm(userFake);
         registerPage.clickRegButton();
-        registerPage.checkError();
-        registerPage.checkHeader();
+        assertEquals( "Текст ошибки не верен", "Некорректный пароль", registerPage.getTextError());
+        assertEquals( "Надпить \"Регистрация\" не видна", "Регистрация", registerPage.getTextRegisterHeader());
     }
 }

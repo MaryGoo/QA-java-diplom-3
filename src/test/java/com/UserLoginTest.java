@@ -12,6 +12,7 @@ import org.junit.Test;
 
 import static com.codeborne.selenide.Selenide.open;
 import static com.codeborne.selenide.Selenide.page;
+import static org.junit.Assert.assertEquals;
 
 public class UserLoginTest {
 
@@ -39,7 +40,8 @@ public class UserLoginTest {
     public void loginMainPageWithSingInSuccessTest(){
         mainPage.clickSingIn();
         loginPage.login(user);
-        mainPage.checkHasButtonAndText();
+        assertEquals( "Кнока \"Оформить заказ\" не видна", "Оформить заказ", mainPage.getTextMakeOrderButton());
+        assertEquals( "Надпить \"Соберите бургер\" не видна", "Соберите бургер", mainPage.getTextInscriptionBurger());
     }
 
     @DisplayName("Успешный логин при попадании на страницу логина через кнопку Личный кабинет")
@@ -47,7 +49,8 @@ public class UserLoginTest {
     public void loginMainPageWithWithPersonAccButtonSuccessTest(){
         mainPage.clickPersAcc();
         loginPage.login(user);
-        mainPage.checkHasButtonAndText();
+        assertEquals( "Кнока \"Оформить заказ\" не видна", "Оформить заказ", mainPage.getTextMakeOrderButton());
+        assertEquals( "Надпить \"Соберите бургер\" не видна", "Соберите бургер", mainPage.getTextInscriptionBurger());
     }
 
     @DisplayName("Успешный логин при попадании на страницу логина из формы регистрации")
@@ -57,7 +60,8 @@ public class UserLoginTest {
         loginPage.clickRegister();
         registerPage.clickSingInButton();
         loginPage.login(user);
-        mainPage.checkHasButtonAndText();
+        assertEquals( "Кнока \"Оформить заказ\" не видна", "Оформить заказ", mainPage.getTextMakeOrderButton());
+        assertEquals( "Надпить \"Соберите бургер\" не видна", "Соберите бургер", mainPage.getTextInscriptionBurger());
     }
 
     @DisplayName("Успешный логин при попадании на страницу логина из формы восстановления пароля")
@@ -67,6 +71,7 @@ public class UserLoginTest {
         loginPage.clickRestorePassword();
         forgotPasswordPage.clickSingInButton();
         loginPage.login(user);
-        mainPage.checkHasButtonAndText();
+        assertEquals( "Кнока \"Оформить заказ\" не видна", "Оформить заказ", mainPage.getTextMakeOrderButton());
+        assertEquals( "Надпить \"Соберите бургер\" не видна", "Соберите бургер", mainPage.getTextInscriptionBurger());
     }
 }

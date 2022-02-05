@@ -18,7 +18,7 @@ public class MainPage {
     private SelenideElement inscriptionBurger;
     //кнопка Оформить заказ
     @FindBy(how = How.XPATH, using = ".//button[text()='Оформить заказ']")
-    public SelenideElement makeOrder;
+    public SelenideElement makeOrderButton;
     //Кнопка личный кабинет
     @FindBy(how = How.XPATH, using = "//*[text()='Личный Кабинет']")
     public SelenideElement personalAccount;
@@ -48,12 +48,14 @@ public class MainPage {
     //Закрытие модалки
     @FindBy(how = How.XPATH,using = "//div[@class='Modal_modal__contentBox__sCy8X pt-30 pb-30']")
     private SelenideElement close;
-    //Проверка, что после логина есть кнопка Оформить заказ
-    @Step
-    public void checkHasButtonAndText() {
-        makeOrder.shouldHave(Condition.exactText("Оформить заказ"));
-        inscriptionBurger.shouldHave(Condition.exist);
-        inscriptionBurger.shouldHave(Condition.exactText("Соберите бургер"));
+
+    @Step("Получить текст кнопки Оформить заказ")
+    public String getTextMakeOrderButton(){
+        return makeOrderButton.getText();
+    }
+    @Step("Получить текст надписи Соберите бургер")
+    public String getTextInscriptionBurger(){
+        return inscriptionBurger.getText();
     }
 
     @Step("Нажать кнопку Войти в аккаунт")
@@ -71,11 +73,9 @@ public class MainPage {
         bunsTab.shouldBe(Condition.exist).click();
     }
 
-    @Step("Проверить наличие подзаголовка Булки")
-    public boolean checkTopBun() {
-        fluorBun.shouldBe(Condition.exist);
-        if (fluorBun.isDisplayed());
-        return true;
+    @Step("Найти Подзаголовок Н2 Булки")
+    public SelenideElement findFluorBun(){
+        return fluorBun;
     }
 
     @Step("Нажать вкладку Соусы")
@@ -83,10 +83,9 @@ public class MainPage {
         sauceTab.shouldBe(Condition.exist).click();
     }
 
-    @Step("Проверить наличие подзаголовка Соусы")
-    public boolean checkTopSauce() {
-        if (sauce.isDisplayed());
-        return true;
+    @Step("Найти подзаголовок Соусы")
+    public SelenideElement findSauce(){
+        return sauce;
     }
 
     @Step("Нажать вкладку Начинки")
@@ -94,9 +93,8 @@ public class MainPage {
         toppingsTab.shouldBe(Condition.exist).click();
     }
 
-    @Step("Проверить наличие Начинок")
-    public boolean checkTopTopping() {
-        if (toppings.isDisplayed());
-        return true;
+    @Step("Найти Начинку")
+    public SelenideElement findToppings(){
+        return toppings;
     }
 }

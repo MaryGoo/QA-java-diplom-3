@@ -11,7 +11,7 @@ import org.junit.Test;
 import static com.codeborne.selenide.Selenide.open;
 import static com.codeborne.selenide.Selenide.page;
 import static com.page.LoginPage.LOGIN_PAGE_URL;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 public class ConstructorTest {
     LoginPage loginPage = open(LOGIN_PAGE_URL, LoginPage.class);
@@ -22,7 +22,7 @@ public class ConstructorTest {
 
     @Before
     public void setUp() {
-    BaseTest.setUpForAll();
+        BaseTest.setUpForAll();
         user = new User(userOperations.register());
         loginPage.login(user);
     }
@@ -34,33 +34,31 @@ public class ConstructorTest {
 
     @DisplayName("При попадании на главную страницу по дефолту открыта вкладка Булки")
     @Test
-    public void BunsTabTest() {
-        boolean isBun = mainPage.checkTopBun();
-        assertTrue("Булки нет!", isBun);
+    public void bunsTabTest() {
+        assertTrue(mainPage.findFluorBun().exists());
+        assertTrue(mainPage.findFluorBun().isDisplayed());
     }
 
     @DisplayName("Успешный переход на вкладку Соусы")
     @Test
-    public void GoSauceTabTest() {
+    public void goSauceTabTest() {
         mainPage.clickSauce();
-        boolean isSauce = mainPage.checkTopSauce();
-        assertTrue("Соусов нет!", isSauce);
+        assertTrue(mainPage.findSauce().isDisplayed());
     }
 
     @DisplayName("Успешный переход на вкладку начинки")
     @Test
-    public void GoToppingTabTest() {
+    public void goToppingTabTest() {
         mainPage.clickToppings();
-        boolean isTopping = mainPage.checkTopTopping();
-        assertTrue("Начинок нет!", isTopping);
+        assertTrue(mainPage.findToppings().isDisplayed());
     }
 
     @DisplayName("Успешный переход на вкладку Булки из других вкладок")
     @Test
-    public void GoBunTabTest() {
+    public void goBunTabTest() {
         mainPage.clickToppings();
         mainPage.clickBuns();
-        boolean isBun = mainPage.checkTopBun();
-        assertTrue("Булки нет!", isBun);
+        assertTrue(mainPage.findFluorBun().exists());
+        assertTrue(mainPage.findFluorBun().isDisplayed());
     }
 }

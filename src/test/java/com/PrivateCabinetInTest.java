@@ -50,7 +50,8 @@ public class PrivateCabinetInTest {
         loginPage.login(user);
         mainPage.clickPersAcc();
         privateOffice.clickConstructorButton();
-        mainPage.checkHasButtonAndText();
+        assertEquals( "Кнока \"Оформить заказ\" не видна", "Оформить заказ", mainPage.getTextMakeOrderButton());
+        assertEquals( "Надпить \"Соберите бургер\" не видна", "Соберите бургер", mainPage.getTextInscriptionBurger());
     }
 
     @DisplayName("Успешный переход в конструктор из личного кабинета через лого бургера")
@@ -60,7 +61,8 @@ public class PrivateCabinetInTest {
         loginPage.login(user);
         mainPage.clickPersAcc();
         privateOffice.clickBurger();
-        mainPage.checkHasButtonAndText();
+        assertEquals( "Кнока \"Оформить заказ\" не видна", "Оформить заказ", mainPage.getTextMakeOrderButton());
+        assertEquals( "Надпить \"Соберите бургер\" не видна", "Соберите бургер", mainPage.getTextInscriptionBurger());
     }
 
     @DisplayName("Успешный выход из личного кабинета")
@@ -70,6 +72,6 @@ public class PrivateCabinetInTest {
         loginPage.login(user);
         mainPage.clickPersAcc();
         privateOffice.clickExitButton();
-        assertTrue("Кнопки Войти нет на экране", loginPage.checkEntrance());
+        assertTrue(loginPage.findEntranceButton().isDisplayed());
     }
 }

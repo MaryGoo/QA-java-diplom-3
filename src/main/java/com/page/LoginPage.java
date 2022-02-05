@@ -62,9 +62,8 @@ public class LoginPage {
         entranceButton.shouldBe(Condition.exist).click();
     }
 
-    @Step("Проверить видимость кнопку Войти")
-    public boolean checkEntrance() {
-        if (entranceButton.isDisplayed()) ;
-        return true;
+    @Step("Найти кнопку Войти")
+    public SelenideElement findEntranceButton() {
+        return entranceButton;
     }
 }
