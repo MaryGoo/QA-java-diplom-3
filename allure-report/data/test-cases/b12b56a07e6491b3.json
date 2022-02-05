@@ -1,0 +1,114 @@
+{
+  "uid" : "b12b56a07e6491b3",
+  "name" : "Успешный логин при попадании на страницу логина через кнопку Личный кабинет",
+  "fullName" : "com.UserLoginTest.loginMainPageWithWithPersonAccButtonSuccessTest",
+  "historyId" : "c6c4c91159854894fc9c4a504ea9710a",
+  "time" : {
+    "start" : 1643698332040,
+    "stop" : 1643698333490,
+    "duration" : 1450
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Нажать кнопку Личный кабинет",
+      "time" : {
+        "start" : 1643698332470,
+        "stop" : 1643698332565,
+        "duration" : 95
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Заполнить почту и пароль на форме логина. Нажать Войти",
+      "time" : {
+        "start" : 1643698332565,
+        "stop" : 1643698332932,
+        "duration" : 367
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "com.model.User@5316255e"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "checkHasButtonAndText",
+      "time" : {
+        "start" : 1643698332932,
+        "stop" : 1643698333207,
+        "duration" : 275
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com"
+  }, {
+    "name" : "testClass",
+    "value" : "com.UserLoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginMainPageWithWithPersonAccButtonSuccessTest"
+  }, {
+    "name" : "suite",
+    "value" : "com.UserLoginTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Sergej.local"
+  }, {
+    "name" : "thread",
+    "value" : "30750@MacBook-Pro-Sergej.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b12b56a07e6491b3.json",
+  "parameterValues" : [ ]
+}

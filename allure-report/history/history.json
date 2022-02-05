@@ -1,0 +1,348 @@
+{
+  "6d63cd744894106d54cf3914d40a396d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "750c281d56197d6f",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.input__error.text_type_main-default}\nExpected: exact text 'Некорректный пароль'\nScreenshot: file:/Users/sergey/Downloads/QA-java-diplom-3/build/reports/tests/1643698301197.1.png\nPage source: file:/Users/sergey/Downloads/QA-java-diplom-3/build/reports/tests/1643698301197.1.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".input__error.text_type_main-default\"}",
+      "time" : {
+        "start" : 1643698293784,
+        "stop" : 1643698301687,
+        "duration" : 7903
+      }
+    } ]
+  },
+  "d75b60b4db6a24b7366ae436e3d83ba7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d41d56cddbff3ca6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643698343939,
+        "stop" : 1643698345396,
+        "duration" : 1457
+      }
+    } ]
+  },
+  "11957f727b681af71a75d631792d0450" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1ad0e10a6734de62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643698338920,
+        "stop" : 1643698340684,
+        "duration" : 1764
+      }
+    } ]
+  },
+  "4eda780a6dd4b707e820118e68984c88" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f97968ae251677ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643698345400,
+        "stop" : 1643698346739,
+        "duration" : 1339
+      }
+    } ]
+  },
+  "cbebbd091c5ecb4a00bc9a20b0049699" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ecc6d3fd1d5cb08b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643698340686,
+        "stop" : 1643698342542,
+        "duration" : 1856
+      }
+    } ]
+  },
+  "74ab7d00e2a9366d35c179c4b8693556" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9e2f5aa16783b026",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.input__error.text_type_main-default}\nExpected: exact text 'Некорректный пароль'\nScreenshot: file:/Users/sergey/Downloads/QA-java-diplom-3/build/reports/tests/1643698324750.3.png\nPage source: file:/Users/sergey/Downloads/QA-java-diplom-3/build/reports/tests/1643698324750.3.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".input__error.text_type_main-default\"}",
+      "time" : {
+        "start" : 1643698317457,
+        "stop" : 1643698325229,
+        "duration" : 7772
+      }
+    } ]
+  },
+  "bd6f0257dcfe8d969df76627739501db" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e21858a37a869ed7",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.input__error.text_type_main-default}\nExpected: exact text 'Некорректный пароль'\nScreenshot: file:/Users/sergey/Downloads/QA-java-diplom-3/build/reports/tests/1643698312691.2.png\nPage source: file:/Users/sergey/Downloads/QA-java-diplom-3/build/reports/tests/1643698312691.2.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".input__error.text_type_main-default\"}",
+      "time" : {
+        "start" : 1643698305605,
+        "stop" : 1643698313153,
+        "duration" : 7548
+      }
+    } ]
+  },
+  "f4dda7877842542f1b816d0ca203ff04" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "25c99395470be018",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643698346741,
+        "stop" : 1643698347945,
+        "duration" : 1204
+      }
+    } ]
+  },
+  "7959499f759abb06b07f57e2cbbf72f4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "164380cdea824d3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643698337080,
+        "stop" : 1643698338919,
+        "duration" : 1839
+      }
+    } ]
+  },
+  "359e8447525a7c733c120c1098c8458a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aced39e26136bc33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643698302320,
+        "stop" : 1643698305602,
+        "duration" : 3282
+      }
+    } ]
+  },
+  "31d21f1d9b02cb443f5f3283bd92e2c9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "855e39a790a2b5a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643698325236,
+        "stop" : 1643698330544,
+        "duration" : 5308
+      }
+    } ]
+  },
+  "57cc6ccbb76a7369466adea4acf5ee03" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "810cc6db93f8e036",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643698342546,
+        "stop" : 1643698343937,
+        "duration" : 1391
+      }
+    } ]
+  },
+  "b60a3269eb0cef0bedbb4e77375c84c3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "87c38830ec0641ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643698333491,
+        "stop" : 1643698335199,
+        "duration" : 1708
+      }
+    } ]
+  },
+  "5c7c35ca40015fcb33111f730f99b726" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "275b779b8b143ad8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643698335206,
+        "stop" : 1643698337076,
+        "duration" : 1870
+      }
+    } ]
+  },
+  "1dc09234773fb3d1745165b99003b1c0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "33c5960a516c549a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643698313157,
+        "stop" : 1643698317455,
+        "duration" : 4298
+      }
+    } ]
+  },
+  "c6c4c91159854894fc9c4a504ea9710a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b12b56a07e6491b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643698332040,
+        "stop" : 1643698333490,
+        "duration" : 1450
+      }
+    } ]
+  },
+  "659a8b08179af28d2c5e3840aa959a61" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2614e68877c6e33b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643698330546,
+        "stop" : 1643698332038,
+        "duration" : 1492
+      }
+    } ]
+  },
+  "1c0e7e5149fdd2072c11d8868316f3c4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a1cb1ead005c91ac",
+      "status" : "failed",
+      "statusDetails" : "Element not found {.input__error.text_type_main-default}\nExpected: exact text 'Некорректный пароль'\nScreenshot: file:/Users/sergey/Downloads/QA-java-diplom-3/build/reports/tests/1643698293339.0.png\nPage source: file:/Users/sergey/Downloads/QA-java-diplom-3/build/reports/tests/1643698293339.0.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".input__error.text_type_main-default\"}",
+      "time" : {
+        "start" : 1643698278215,
+        "stop" : 1643698293719,
+        "duration" : 15504
+      }
+    } ]
+  }
+}

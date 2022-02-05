@@ -1,0 +1,144 @@
+{
+  "uid" : "ecc6d3fd1d5cb08b",
+  "name" : "Успешный переход в конструктор из личного кабинета через лого бургера",
+  "fullName" : "com.PrivateCabinetInTest.goInBurgerLogoTest",
+  "historyId" : "cbebbd091c5ecb4a00bc9a20b0049699",
+  "time" : {
+    "start" : 1643698340686,
+    "stop" : 1643698342542,
+    "duration" : 1856
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Нажать кнопку Войти в аккаунт",
+      "time" : {
+        "start" : 1643698341081,
+        "stop" : 1643698341190,
+        "duration" : 109
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Заполнить почту и пароль на форме логина. Нажать Войти",
+      "time" : {
+        "start" : 1643698341190,
+        "stop" : 1643698341581,
+        "duration" : 391
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "com.model.User@6033ed50"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать кнопку Личный кабинет",
+      "time" : {
+        "start" : 1643698341581,
+        "stop" : 1643698342028,
+        "duration" : 447
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Нажать Лого Бургера",
+      "time" : {
+        "start" : 1643698342028,
+        "stop" : 1643698342288,
+        "duration" : 260
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "checkHasButtonAndText",
+      "time" : {
+        "start" : 1643698342288,
+        "stop" : 1643698342340,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com"
+  }, {
+    "name" : "testClass",
+    "value" : "com.PrivateCabinetInTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "goInBurgerLogoTest"
+  }, {
+    "name" : "suite",
+    "value" : "com.PrivateCabinetInTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Sergej.local"
+  }, {
+    "name" : "thread",
+    "value" : "30750@MacBook-Pro-Sergej.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ecc6d3fd1d5cb08b.json",
+  "parameterValues" : [ ]
+}

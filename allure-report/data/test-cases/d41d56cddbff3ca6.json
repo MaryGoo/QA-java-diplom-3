@@ -1,0 +1,129 @@
+{
+  "uid" : "d41d56cddbff3ca6",
+  "name" : "Успешный переход на вкладку Булки из других вкладок",
+  "fullName" : "com.ConstructorTest.GoBunTabTest",
+  "historyId" : "d75b60b4db6a24b7366ae436e3d83ba7",
+  "time" : {
+    "start" : 1643698343939,
+    "stop" : 1643698345396,
+    "duration" : 1457
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Заполнить почту и пароль на форме логина. Нажать Войти",
+      "time" : {
+        "start" : 1643698344351,
+        "stop" : 1643698344655,
+        "duration" : 304
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "com.model.User@5599f7a5"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать вкладку Начинки",
+      "time" : {
+        "start" : 1643698344655,
+        "stop" : 1643698345082,
+        "duration" : 427
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Нажать вкладку Булки",
+      "time" : {
+        "start" : 1643698345083,
+        "stop" : 1643698345161,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверить наличие подзаголовка Булки",
+      "time" : {
+        "start" : 1643698345161,
+        "stop" : 1643698345197,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ConstructorTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "GoBunTabTest"
+  }, {
+    "name" : "suite",
+    "value" : "com.ConstructorTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Sergej.local"
+  }, {
+    "name" : "thread",
+    "value" : "30750@MacBook-Pro-Sergej.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d41d56cddbff3ca6.json",
+  "parameterValues" : [ ]
+}

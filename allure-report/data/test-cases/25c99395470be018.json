@@ -1,0 +1,99 @@
+{
+  "uid" : "25c99395470be018",
+  "name" : "При попадании на главную страницу по дефолту открыта вкладка Булки",
+  "fullName" : "com.ConstructorTest.BunsTabTest",
+  "historyId" : "f4dda7877842542f1b816d0ca203ff04",
+  "time" : {
+    "start" : 1643698346741,
+    "stop" : 1643698347945,
+    "duration" : 1204
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Заполнить почту и пароль на форме логина. Нажать Войти",
+      "time" : {
+        "start" : 1643698347183,
+        "stop" : 1643698347471,
+        "duration" : 288
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "com.model.User@79620fed"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить наличие подзаголовка Булки",
+      "time" : {
+        "start" : 1643698347471,
+        "stop" : 1643698347725,
+        "duration" : 254
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ConstructorTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "BunsTabTest"
+  }, {
+    "name" : "suite",
+    "value" : "com.ConstructorTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Sergej.local"
+  }, {
+    "name" : "thread",
+    "value" : "30750@MacBook-Pro-Sergej.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "25c99395470be018.json",
+  "parameterValues" : [ ]
+}
